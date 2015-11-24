@@ -13,8 +13,8 @@
     <platform name="ios">
       <config-file target="*-Info.plist" parent="NSAppTransportSecurity">
           <dict>
-              <key>NSAllowsArbitraryLoads</key>
-              <false/>
+              <key>NSDummyKey</key>
+              <true/>
           </dict>
       </config-file>
     </platform>
